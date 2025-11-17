@@ -1,0 +1,5 @@
+Beim Ausführen von make werden die eingegebenen Befehle wiederholt.
+Finde heraus, was geändert werden muss, damit die Befehle nicht wiederholt werden.
+
+Man kann vor den Befehlen jeweils ein @ hinschreiben und dann werden die Befehle nicht mehr in der Konsole wiederholt,
+sondern nur noch ausgeführt.
