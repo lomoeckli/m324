@@ -1,0 +1,5 @@
+4.1 Führe mit SonarQube eine Prüfung durch. Auf wie viele Fehler macht SonarQube aufmerksam?
+Bei mir macht SonarQube auf gar keine Fehler aufmerksam.
+
+4.3 Führe die Prüfung erneut durch und korrigiere den Code so, dass keine weiteren Fehler auftreten.
+Nach der Prüfung traten 2 Issues auf.
