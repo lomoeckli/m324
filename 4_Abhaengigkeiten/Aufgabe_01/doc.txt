@@ -1,0 +1,3 @@
+4.1 Welche Probleme können auftreten, wenn beim Ausführen von Softwares die notwendigen Abhängigkeiten fehlen?
+Eine Komponente kann nicht mehr richtig funktionieren, weil die Abhängigkeit zu einer anderen Komponente fehlt, die sie braucht, um korrekt zu funktionieren.
+So kann es sein, dass eine Applikation instabil, falsch oder gar nicht mehr funktioniert.
