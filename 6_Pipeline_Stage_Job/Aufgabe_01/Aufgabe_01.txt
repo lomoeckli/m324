@@ -1,0 +1,23 @@
+Pipeline = gesamter Ablauf
+
+Eine Pipeline ist der gesamte automatisierte Ablauf in einem CI/CD-System. Sie beschreibt,
+was bei einer Änderung am Code passiert, zum Beispiel Build, Test und Deployment, und in welcher Reihenfolge.
+Eine Pipeline wird meist durch ein Ereignis wie einen Commit oder Merge gestartet.
+
+----------------------------------------------------------------------------------------------------------------
+
+Stage = Phase innerhalb einer Pipeline. 
+
+Eine Stage ist ein logischer Abschnitt innerhalb einer Pipeline.
+Sie fasst mehrere zusammengehörige Schritte zusammen, zum Beispiel eine Stage "Build" oder "Test".
+Stages laufen in der Regel nacheinander, sodass klar definierte Phasen im Ablauf entstehen.
+
+----------------------------------------------------------------------------------------------------------------
+
+Job = einzelne Aufgabe innerhalb einer Stage
+
+Ein Job ist die konkrete Ausführungseinheit innerhalb einer Stage.
+Er enthält die eigentlichen Befehle oder Skript, die ausgeführt werden,
+zum Beispiel das Kompilieren des Codes oder das Ausführen von Tests.
+Mehrere Jobs innerhalb einer Stage können parallel laufen. Die Jobs der neuen Stage werden erst gestartet,
+wenn alle Jobs der alten Stage fertig durchgelaufen sind.
