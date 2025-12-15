@@ -20,3 +20,5 @@ coverage.xml: src/house.py tests/test.py
 	rm -rf src/__pycache__
 	rm -rf tests/__pycache__
 	rm -f .coverage
+
+# http://localhost:9000/
