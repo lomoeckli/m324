@@ -1,3 +1,5 @@
+1. Erkläre die Begriffe Pipeline, Stage und Job.
+
 Pipeline = gesamter Ablauf
 
 Eine Pipeline ist der gesamte automatisierte Ablauf in einem CI/CD-System. Sie beschreibt,

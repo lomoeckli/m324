@@ -1,0 +1,7 @@
+2. Eine Pipeline enthält 3 Stages à je 2 Jobs.
+
+2.1 Unter welcher Bedingung wird die Pipeline als passed gekennzeichnet?
+Wenn alle 6 Jobs und somit alle 3 Stages erfolgreich abgeschlossen wurden.
+
+2.2 Unter welcher Bedingung wird die Pipeline als failed gekennzeichnet?
+Wenn mindestens einer der 6 Jobs nicht korrekt durchgelaufen ist.
